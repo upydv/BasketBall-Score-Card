@@ -1,0 +1,23 @@
+.container{
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+    column-gap: 10px;
+    display: center;
+    align-items: center;
+}
+.host_score{
+    text-align: center;
+    text-decoration: dotted;
+    text-decoration-color: brown;
+}
+input{
+    text-align: center;
+    height: 50px;
+    width: 50px;
+
+}
+button{
+    align-items:self-end;
+    align-self:flex-end;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <p class="host_score" >Guest</p>
+            <input type="text" placeholder="0" id="guest_score" >
+            <button onclick="guest1()">+1</button>
+            <button onclick="guest2()">+2</button>
+            <button onclick="guest3()">+3</button>
+        </div>
+        <div>
+            <p class="host_score" >Host</p>
+            <input type="text" placeholder="0" id="host_score">
+            <button id="host_score_1" onclick="host1()">+1</button>
+            <button class="host_score_2" onclick="host2()">+2</button>
+            <button class="host_score_3" onclick="host3()">+3</button>
+        </div>
+        <button onclick="newGame()">New Game</button>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
